@@ -1,25 +1,25 @@
 class Vt < Formula
   desc "Todos in your Markdown notes, from the terminal"
   homepage "https://github.com/Delsinvg/vt"
-  version "0.2.0"
+  version "0.2.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/Delsinvg/vt/releases/download/v0.2.0/vt-aarch64-apple-darwin.tar.xz"
-      sha256 "b32dbc31027d08803cb8bc6443687d066e096caf9aba4e4213812b57d96f9f18"
+      url "https://github.com/Delsinvg/vt/releases/download/v0.2.1/vt-aarch64-apple-darwin.tar.xz"
+      sha256 "cba6e0f60e49ebcf88f4b766ccbc4cb01aa7e58e685f179ec310c0265a393d51"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Delsinvg/vt/releases/download/v0.2.0/vt-x86_64-apple-darwin.tar.xz"
-      sha256 "007c0530a9f86a5d6d0a3fe4c59a78a610d8ae67c774e58f41309d5cc45b9ec4"
+      url "https://github.com/Delsinvg/vt/releases/download/v0.2.1/vt-x86_64-apple-darwin.tar.xz"
+      sha256 "9ef855973ea8f027dbc7f94c58b8f77df7d9653222dc12f3e2a20591bafba9e3"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/Delsinvg/vt/releases/download/v0.2.0/vt-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "42162d5bb1295a00348c39922bd611cdf98d753f12e94fffdf77b520cd6a916e"
+      url "https://github.com/Delsinvg/vt/releases/download/v0.2.1/vt-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "39239b62605279b313fe78fb82f82a5eed93f3134c26729d3c19c0666553b40a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/Delsinvg/vt/releases/download/v0.2.0/vt-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "14c775696d7ae2a47e7e3f054cdd7852ca18a12f22f8c7a98d488a9f0df08cfc"
+      url "https://github.com/Delsinvg/vt/releases/download/v0.2.1/vt-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "d061efe37d6b4b17bc4a2c6aff0556e17dee2ada7432d44ad890831be277b018"
     end
   end
   license "MIT"
